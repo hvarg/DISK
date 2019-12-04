@@ -6,7 +6,7 @@ before_script:
 - cd portal
 script:
 - export MAVEN_OPTS=-Dorg.slf4j.simpleLogger.log.org.apache.maven.cli.transfer.Slf4jMavenTransferListener=warn
-- mvn package 
+- mvn -B package 
 deploy:
   provider: releases
   api_key:
