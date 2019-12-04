@@ -1,3 +1,6 @@
+cache:
+  directories:
+  - $HOME/.m2
 language: java
 before_script: cd portal
 script:
